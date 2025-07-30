@@ -1,0 +1,41 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 500px; 
+    border: 2px solid goldenrod;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-content:space-between; */
+    box-shadow: 10px 10px 10px gray;
+    /* linear-gradient
+    circular-gradient
+    repeating linear-gradient
+    repeating circular-gradient */
+}
+.child{
+    width: 100px;
+    height: 100px;
+
+}
+#c1{
+    background-color: red;
+    /* order: 2; */
+    /* flex-grow: 1; */;;
+    align-self: flex-start;
+    box-shadow: 10px 10px 10px gray;
+}
+#c2{
+    background-color: green;
+    /* order: 1; */
+    /* flex-grow: 2; */
+    align-self: center;
+    background-image: radial-gradient(rgb(58, 58, 172),rgb(237, 237, 33),rgb(62, 48, 48));
+} 
+#c3{
+    background-color: yellow;
+    background-image: linear-gradient(to top left,rgb(58, 58, 172),rgb(237, 237, 33),rgb(16, 1, 1));
+    
+    /* order: 3; */
+    /* flex-grow: 2; */
+}
